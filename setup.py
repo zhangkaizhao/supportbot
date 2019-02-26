@@ -37,13 +37,11 @@ setup(
         "supportbot.full_text_search",
         "supportbot.fuzzy_matching",
     ],
-    extras_require={
-        "fuzzy": ["fuzzywuzzy[speedup]>=0.17.0"],
-        "full_text_search": [
-            "jieba>=0.39",
-            "Whoosh>=2.7.4",
-        ],
-    },
+    install_requires=[
+        "fuzzywuzzy[speedup]>=0.17.0",
+        "jieba>=0.39",
+        "Whoosh>=2.7.4",
+    ],
     classifiers=[
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
