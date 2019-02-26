@@ -1,0 +1,12 @@
+# Fuzzy
+fuzzywuzzy[speedup]>=0.17.0
+
+# Full text search
+jieba>=0.39
+Whoosh>=2.7.4
+
+# Supportbot self
+-e .
+
+# Testing
+pytest>=4.3.0

@@ -1,0 +1,14 @@
+Are you OK?
+I am very OK!
+
+How are you?
+Fine. Thank you very much!
+
+Do you like me?
+Yes!
+
+What does a “Cannot find symbol” compilation error mean?
+Please search by Google https://www.google.com/?q=cannot%20find%20symbol .
+
+How do I resolve “Cannot find module” error using Node.js?
+Please search by Google https://www.google.com/search?q=cannot%20find%20module .
