@@ -4,17 +4,33 @@
 #
 #    pip-compile dev-requirements.in
 #
---index-url https://pypi.tuna.tsinghua.edu.cn/simple
-
 -e file:///home/kaizhao/projects/supportbot
-atomicwrites==1.3.0       # via pytest
-attrs==18.2.0             # via pytest
+    # via -r dev-requirements.in
+atomicwrites==1.3.0
+    # via pytest
+attrs==18.2.0
+    # via pytest
 fuzzywuzzy[speedup]==0.17.0
+    # via
+    #   -r dev-requirements.in
+    #   sanitized-package
 jieba==0.39
-more-itertools==6.0.0     # via pytest
-pluggy==0.9.0             # via pytest
-py==1.8.0                 # via pytest
+    # via
+    #   -r dev-requirements.in
+    #   sanitized-package
+more-itertools==6.0.0
+    # via pytest
+pluggy==0.9.0
+    # via pytest
+py==1.10.0
+    # via pytest
 pytest==4.3.0
-python-levenshtein==0.12.0  # via fuzzywuzzy
-six==1.12.0               # via pytest
+    # via -r dev-requirements.in
+python-levenshtein==0.12.0
+    # via fuzzywuzzy
+six==1.12.0
+    # via pytest
 whoosh==2.7.4
+    # via
+    #   -r dev-requirements.in
+    #   sanitized-package
